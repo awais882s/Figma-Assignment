@@ -29,3 +29,33 @@ body {
   width: 100%;
   height: auto;
 }
+/*==========================================Comment===============================*/
+.commentUser{
+  border-top: 2px solid #000;
+}
+.commentUserImage{
+  border:px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.commentUserImage img{
+  border: px solid red;
+}
+.commentUserNameAndDate{
+  border:px solid black;
+}
+.MediaIcon {
+  border:px solid black;
+  padding:0px;
+  display:flex;
+  align-items:center;
+}
+.fab{
+  border: 5px solid #eaeaea;
+  font-size: 2em;
+  text-align: center;
+  width: 100%;
+  padding: 5px;
+  cursor: pointer;
+}
