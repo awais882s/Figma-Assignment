@@ -1,0 +1,12 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: #eee;
+}
+.container{
+  border: px solid red;
+  padding: 0% 15%;
+}
