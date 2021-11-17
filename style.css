@@ -32,6 +32,7 @@ body {
 /*==========================================Comment===============================*/
 .commentUser{
   border-top: 2px solid #000;
+  margin-top: 20px;
 }
 .commentUserImage{
   border:px solid black;
@@ -58,4 +59,19 @@ body {
   width: 100%;
   padding: 5px;
   cursor: pointer;
+}
+.fa-facebook, .fa-twitter, .fa-whatsapp{
+  transition: 0.4s;
+}
+.fa-facebook:hover{
+  color: #1877f2;
+  border: 1px solid #1877f2;
+}
+.fa-twitter:hover{
+  color: #1da1f2;
+  border: 1px solid #1da1f2;
+}
+.fa-whatsapp:hover{
+  color: #25d366;
+  border: 1px solid #25d366;
 }
