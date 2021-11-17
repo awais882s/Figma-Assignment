@@ -111,12 +111,12 @@ body {
   justify-content: center;
   align-items: center;
 }
-.eyes {
-  border: px solid red;
+.eyes{
   display: flex;
   align-items: center;
   position: relative;
   top: -50px;
+  justify-content: center;
 }
 .eyes img{
   border:px solid red;
@@ -128,4 +128,6 @@ body {
 .BlogSection h1{
   text-align: center;
   margin-top: 30px;
+  margin-top: 0px;
+  padding-bottom: 40px;
 }
