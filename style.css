@@ -131,3 +131,45 @@ body {
   margin-top: 0px;
   padding-bottom: 40px;
 }
+.signUprow{
+  display:flex;
+  justify-content:center;
+  padding-bottom:80px;
+  margin-top:50px;
+}
+.signUpbox{
+  border-top:7px solid black;
+  border-left:1px solid #3e3e3e;
+  border-right:1px solid #3e3e3e;
+  border-bottom:1px solid #3e3e3e;
+}
+.signUpbox h4{
+  margin-top:25px;
+}
+.emailSignUpContainer{
+  border:px solid red;
+  margin-bottom:40px;
+}
+
+.emailSignUprow{
+  border:px dotted green;
+}
+.email,.signup{
+  padding:0px;
+}
+.email input{
+  border:px solid blue;
+  width:100%;
+  height:100%;
+  padding-left:8px;
+}
+.signup{
+  border:px solid blue;
+}
+.signup button{
+  width:100%;
+  height:100%;
+  background-color:#000;
+  color:#fff;
+  padding:5px 0px;
+}
