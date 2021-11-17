@@ -25,34 +25,34 @@ body {
 .imageUnderTitleText {
   border: px solid red;
 }
-.imageUnderTitleText img{
+.imageUnderTitleText img {
   width: 100%;
   height: auto;
 }
 /*==========================================Comment===============================*/
-.commentUser{
+.commentUser {
   border-top: 2px solid #000;
   margin-top: 20px;
 }
-.commentUserImage{
-  border:px solid black;
+.commentUserImage {
+  border: px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.commentUserImage img{
+.commentUserImage img {
   border: px solid red;
 }
-.commentUserNameAndDate{
-  border:px solid black;
+.commentUserNameAndDate {
+  border: px solid black;
 }
 .MediaIcon {
-  border:px solid black;
-  padding:0px;
-  display:flex;
-  align-items:center;
+  border: px solid black;
+  padding: 0px;
+  display: flex;
+  align-items: center;
 }
-.fab{
+.fab {
   border: 5px solid #eaeaea;
   font-size: 2em;
   text-align: center;
@@ -60,22 +60,24 @@ body {
   padding: 5px;
   cursor: pointer;
 }
-.fa-facebook, .fa-twitter, .fa-whatsapp{
+.fa-facebook,
+.fa-twitter,
+.fa-whatsapp {
   transition: 0.4s;
 }
-.fa-facebook:hover{
+.fa-facebook:hover {
   color: #1877f2;
   border: 1px solid #1877f2;
 }
-.fa-twitter:hover{
+.fa-twitter:hover {
   color: #1da1f2;
   border: 1px solid #1da1f2;
 }
-.fa-whatsapp:hover{
+.fa-whatsapp:hover {
   color: #25d366;
   border: 1px solid #25d366;
 }
-.ghostImage{
+.ghostImage {
   display: flex;
   justify-content: center;
 }
@@ -84,10 +86,46 @@ body {
   margin: auto;
   height: auto;
 }
-.ghostImageDescription{
+.ghostImageDescription {
   border: px solid black;
   text-align: center;
   font-weight: 500;
   width: 60%;
   margin: auto;
+}
+.centerSocialMediaIcons {
+  border: px solid red;
+  margin: 30px 0px;
+}
+.paragraphsUnderGhost Image > h5 {
+  margin: 30px 0px;
+}
+.commentUser2ndDetail {
+  border: px solid black;
+  margin: 30px 0px;
+  padding-top: 30px;
+}
+.userImage {
+  border: px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.eyes {
+  border: px solid red;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: -50px;
+}
+.eyes img{
+  border:px solid red;
+}
+.lineUnderEyes{
+  border:1px solid black;
+  color:#000;
+}
+.BlogSection h1{
+  text-align: center;
+  margin-top: 30px;
 }
